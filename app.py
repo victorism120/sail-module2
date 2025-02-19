@@ -7,6 +7,7 @@ st.set_page_config(
     page_title="Student Scores Manager",
     page_icon="📚",
     layout="wide"
+)
 
 # Initialize session state for student data
 if "students" not in st.session_state:
