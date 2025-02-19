@@ -1,0 +1,13 @@
+prefix=/Users/user/Downloads/sail week 2 assignment /venv
+exec_prefix=/Users/user/Downloads/sail week 2 assignment /venv
+libdir=/Users/user/Downloads/sail week 2 assignment /venv/lib
+sharedlibdir=/Users/user/Downloads/sail week 2 assignment /venv/lib
+includedir=/Users/user/Downloads/sail week 2 assignment /venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
